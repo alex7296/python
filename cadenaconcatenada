@@ -1,0 +1,3 @@
+fruta = " banano "
+bienCocinada = " pan con nueces "
+print fruta + bienCocinada
