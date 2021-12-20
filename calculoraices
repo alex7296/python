@@ -1,0 +1,14 @@
+# calculo de raices de segundo grado
+
+print ("ingrese los coeficientes")
+a= int(input("a="))
+b= int(input("b="))
+c=int(input("c="))
+delta=((b**2)-(4*a*c))
+if (delta)<0: 
+    print (" esta funcion no tiene raices reales")
+else:
+    alfa=((-b+delta**0.5)/(2*a))
+    beta=((-b+delta**0.5)/(2*a))
+    print ("x1=",alfa)
+    print ("x2=",beta)
