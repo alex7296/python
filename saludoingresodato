@@ -1,0 +1,2 @@
+usuario = input("¿como te llamas?")
+print ("hola", usuario)
