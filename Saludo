@@ -1,0 +1,2 @@
+usuario = "Pepe Nava"
+print ("hola", usuario)
