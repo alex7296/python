@@ -1,0 +1,11 @@
+'''
+
+calculo area de un triangulo 
+
+'''
+b= int(input("ingresa base del triangulo:"))
+h= int(input("ingresa altura del triangulo:"))
+
+area= b*h/2
+
+print("el area del triangulo es:", area)
