@@ -1,0 +1,10 @@
+'''
+script python
+calificacion y asistencia a curso 
+
+'''
+calificacion= int(input("ingresa calificacion:"))
+asistencia= int(input("ingresa asistencia:"))
+
+if calificacion>=60 and asistencia>20:
+    print ('aprobo el curso')
