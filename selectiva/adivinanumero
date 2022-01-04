@@ -1,0 +1,14 @@
+'''
+
+adivinar numero entre 1 y 10 
+
+'''
+import random 
+
+secreto= random.randint(1,10)
+
+print ('ingresa un numero entre 1 y 10:')
+numero= int(input("cual es el numero?:"))
+
+if numero==secreto:
+    print("felicitaciones")
