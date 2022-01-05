@@ -1,0 +1,14 @@
+'''
+
+                           calificacion con redondeo
+
+'''
+calificacion= int(input("ingrese calificacion:"))
+residuo= calificacion%10
+mensaje= "tu calificacion no amerita redondeo"
+
+if 0<calificacion<100 and residuo>=6:
+    calificacion= calificacion+(10-residuo)
+    mensaje= f"tu calificacion es:  {calificacion}"
+    
+print(mensaje)
