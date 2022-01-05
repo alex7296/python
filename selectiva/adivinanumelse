@@ -1,0 +1,9 @@
+import random
+
+secreto= random.randint(1,10)
+usuario= int(input("ingresa un numero del 1 al 10:"))
+
+if secreto== usuario:
+    print ("ese el numero")
+else:
+        print(f"el numero es {secreto}")
