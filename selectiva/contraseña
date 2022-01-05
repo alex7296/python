@@ -1,0 +1,11 @@
+User= "Pep3"
+Password= "San90"
+
+print ("ingresar los datos")
+dato= input("Usuario:")
+Contraseña= input("Contraseña:")
+
+if User==dato and Password==Contraseña: 
+    print("Bienvenido")
+else:
+    print("Datos incorectos")
