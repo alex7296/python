@@ -1,0 +1,8 @@
+def f():
+    global s
+    print(s)
+    s = 'A mi tambien'
+    print(s)
+s = 'Me gusta Python'
+f()
+print(s)
