@@ -1,0 +1,13 @@
+# Pedir el numero de alumnos
+n = 0
+while n < 1:
+   n = int( input('.Cuantos alumnos tenemos? ') )
+   while n > 0:
+       # Pedir los datos de los alumnos
+        dni = input('\nIntroduce el DNI (ocho numeros y letra) del alumno: ')
+        nota1 = float( input('Dame la nota del primer examen: ') )
+        nota2 = float( input('Dame la nota del segundo examen: ') )
+      # Imprimir la media
+        media = (nota1 + nota2) / 2
+        print(dni, media)
+        n = n - 1
