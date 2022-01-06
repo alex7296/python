@@ -1,0 +1,11 @@
+import math
+print('Este programa calculará el mcd y mcm,')
+print('de los 2 números que introduzcamos')
+n1=input('Escribe el número 1: ')
+n1=eval(n1)
+n2=input('Escribe el número 2: ')
+n2=eval(n2)
+mcd=math.gcd(n1,n2)
+print('El Máximo Común Divisor es',mcd)
+print('El Mínimo Común Múltiplo es',mcm)
+mcm=(n1*n2)/mcd
