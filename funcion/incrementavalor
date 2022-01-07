@@ -1,0 +1,4 @@
+def incrementa(a, b=1):
+     return a+b
+print( incrementa(3, 2) )
+print( incrementa(3) )
