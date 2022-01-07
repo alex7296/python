@@ -1,0 +1,5 @@
+def f(x):
+    return x + 3
+def g(func, x):
+    return func(x) * func(x)
+print( g(f, 7) )
