@@ -1,0 +1,9 @@
+from dataclasses import dataclass
+@dataclass
+class Persona:
+       nombre: float
+       edad: int
+p_dc = Persona('Calico', 25)
+p_dc.edad = p_dc.edad + 1
+print(p_dc) # Persona(nombre='Calico', edad=26)
+print(type(p_dc)) # <class '__main__.Persona'
