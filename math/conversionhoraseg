@@ -1,0 +1,13 @@
+def de_horas_a_segundos():
+   horas = float( input('.Cuantas horas? ') )
+   segundos = horas*3600
+print('En segundos son', segundos)
+
+de_horas_a_segundos()
+
+def de_horas_a_segundos(horas):
+    segundos = horas*3600;
+    return segundos
+dias = float( input('.Cuantos dias? ') )
+seg = de_horas_a_segundos(dias*24)
+print('Los segundos son', seg
