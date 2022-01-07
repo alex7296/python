@@ -1,0 +1,7 @@
+def myrange(start, stop, step=1):
+    assert step>0, "only positive steps implemented in myrange"
+    i = start
+    while i<stop:
+       yield i
+       i += step
+print("myrange(2,30,3):",list(myrange(2,30,3)))
