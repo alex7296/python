@@ -1,0 +1,4 @@
+p_dic = {'nombre':'Calico', 'edad':25}
+p_dic['edad'] = p_dic['edad'] + 1
+print(p_dic) # {'nombre': 'Calico', 'edad': 26}
+print(type(p_dic)) # <class 'dict'>
