@@ -1,0 +1,6 @@
+def imprimir(*args):
+    print(len(args), 'argumentos')
+    for a in args:
+        print(' argumento:', a)
+imprimir(3, 'hola')
+imprimir('fresa', [1, 2], True)
