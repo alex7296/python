@@ -1,0 +1,5 @@
+def decir(a='hola', b='adios'):
+     print(a + ' y ' + b)
+decir('ola k ase')
+decir(b='adeu')
+decir(b='adeu', a='ola k ase')
