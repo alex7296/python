@@ -1,0 +1,36 @@
+'''
+
+                           script python calculadora con selectiva multiple
+
+'''
+
+suma=1 
+resta=2 
+multiplicacion=3 
+division=4 
+division_entera=5
+modulo=6
+potencia=7 
+print(f" Caluladora   :{suma}) Suma {resta}) Resta {multiplicacion} Multiplicacion {division})Division {division_entera}) Division division_entera{modulo}) modulo {potencia}) Potencia")
+opc=int(input("Ingrese la operacion: "))
+
+
+if opc>=suma and opc<=potencia:
+    num1=int(input("ingrese el primer numero:"))
+    num2=int(input("ingrese el segundo numero:"))
+    if opc==suma:
+        print (f"{num1}+{num2}={num1+num2}")
+    if opc==resta:
+        print(f"{num1}-{num2}={num1-num2}")
+    if opc==multiplicacion:
+        print(f"{num1}*{num2}={num1*num2}")
+    if opc==division:
+        print(f"{num1}/{num2}={num1/num2}")
+    if opc==division_entera:
+        print(f"{num1}//{num2}={num1//num2}")
+    if opc==modulo:
+        print(f"{num1}%{num2}={num1%num2}")
+    if opc==potencia:
+        print(f"{num1}**{num2}={num1**num2}")
+else:
+  print("opcion incorrecta")
