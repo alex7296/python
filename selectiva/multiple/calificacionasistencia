@@ -1,0 +1,21 @@
+'''
+
+                           script python selectiva multiple
+
+'''
+
+MIN_CAL=60
+MIN_ASI=24
+
+print("Ingresar los datos:")
+cal = int(input("Calificacion:"))
+asi = int(input("Asistencia:"))
+
+if cal>=60 and asi>=24:
+    print ("Aprobaste")
+elif cal<60 and asi>=24:
+    print(f"Calsificacion insuficiente. El minimo es {MIN_CAL}")
+elif cal>=60 and asi<24:
+    print(f"Asistencia insuficiente. El minimo es {MIN_ASI}")
+else:
+    print("Calificacion y Asistencia insuficiente")
