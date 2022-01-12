@@ -1,0 +1,5 @@
+x_contador = 1
+while x_contador < 10:
+   x_contador = x_contador * 2
+   print (f"{x_contador}")
+del x_contador
