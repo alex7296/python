@@ -1,0 +1,3 @@
+text = input("Type in some words: ")
+for character in text:
+   print(f"{character}")
