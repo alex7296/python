@@ -1,0 +1,6 @@
+#potencia
+numero = int(input("Dame un n´umero: "))
+
+print(f" {numero} elevado a 2 es {numero ** 2}" )
+print(f" {numero} elevado a 3 es {numero ** 3}" )
+print(f" {numero} elevado a 4 es {numero ** 4}" )
