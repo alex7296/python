@@ -1,0 +1,17 @@
+# Programa: rectangulo.py
+# Prop´osito: Calcula el per´ımetro y el ´area de un rect´angulo a partir
+# de su altura y anchura.
+# Autor: John Cleese
+ # Fecha: 1/1/2001
+
+# Petici´on de los datos (en metros)
+altura = float(input("Dame la altura (en metros): "))
+anchura = float(input("Dame la anchura (en metros): "))
+
+# C´alculo del ´area y del per´ımetro
+area = altura * anchura
+perimetro = 2 * altura + 2 * anchura
+
+# Impresi´on de resultados por pantalla
+print (f"El perımetro es de {perimetro} metros  " ) # s´olo dos decimales.
+print (f"El ´area es de {area} metros cuadrados " )
