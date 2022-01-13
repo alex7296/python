@@ -1,0 +1,20 @@
+'''
+
+                            anidamiento estructural 
+'''
+
+respuesta= int(input("cual es la velocidad de la luz en m/s:"))
+if respuesta==299742458 :
+    print("correcto")
+    respuesta=int(input("cuanto es 8+8/8*8"))
+    if respuesta==8+8/8*8 :
+        print("correcto")
+        respuesta= input("de que color son las mangas del chaleco de napoleon:")
+        if respuesta=="los chalecos no tienen mangos" :
+            print("correcto")
+        else:
+           print ("incorrecto")
+    else:
+        print("incorrecto")
+else:
+    print("incorrecto")
