@@ -1,0 +1,17 @@
+'''
+
+                           sumar pares multiplicar impares
+
+'''
+suma=0
+multiplicacion=1 
+numero=-1 
+
+while (numero!=0) :
+    numero=int(input("ingrese numero(0 para terminar)"))
+    if (numero%2==0) :
+        suma=suma+numero
+    else:
+         multiplicacion=multiplicacion*numero
+print(f"suma: {suma}")
+print(f"multiplicacion:{multiplicacion}")
