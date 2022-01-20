@@ -1,0 +1,6 @@
+# Online Python compiler (interpreter) to run Python online.
+# cuenta regresiva del 10 al 0
+
+
+for numero in range(10,-1,-1):
+    print(f"{numero}")
