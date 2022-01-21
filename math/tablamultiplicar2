@@ -1,0 +1,6 @@
+numero=int(input("ingresa un numero:"))
+limite=int(input("hasta que multiplo:"))
+
+print(f"Tabla del numero {numero}")
+for multiplo in range(1,limite+1):
+    print(f"{numero}*{multiplo}={numero*multiplo}")
