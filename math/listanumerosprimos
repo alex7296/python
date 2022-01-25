@@ -1,0 +1,11 @@
+# List all primes between 2 and 100 
+for number in range(2, 101): 
+   for factor in range(2, number//2+1):
+ # Look for factor
+      if number % factor == 0: 
+# break if a factor found
+           print('%d is NOT a prime' % number) 
+           break 
+      else:
+ # Only if no break encountered
+          print('%d is a prime' % number)
