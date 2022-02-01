@@ -1,0 +1,4 @@
+frase=input("ingresa una frase:")
+print("los simbolos de tu frase son:")
+for simbolo in frase:
+    print(f"{simbolo}")
