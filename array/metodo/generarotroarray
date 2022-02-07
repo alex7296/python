@@ -1,0 +1,7 @@
+def multiplyAll(numList, multiplier): #1
+
+      newList = list() #2
+      for num in numList: #3
+          newList.append(num*multiplier) #4
+      return newList 
+print(multiplyAll([3, 1, 7], 5)) #6
