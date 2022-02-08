@@ -1,0 +1,7 @@
+def esto_falla():
+   x = 1/0
+
+try:
+  esto_falla()
+except ZeroDivisionError as detail:
+  print ("Manejando error en tiempo de ejecucion:")
