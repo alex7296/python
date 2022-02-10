@@ -1,0 +1,4 @@
+lst1 = ['a', 'b', 'c']
+lst2 = [11, 22, 33] 
+for i1, i2 in zip(lst1, lst2): 
+    print(i1, i2)
