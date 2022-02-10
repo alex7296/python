@@ -1,0 +1,2 @@
+for i, v in enumerate(('d', 'e', 'f')):
+    print(i, v)
