@@ -1,0 +1,4 @@
+from math import pi
+radio=float (input ("ingese el radio de la esfera"))
+volumen= (4/3)*pi*radio**3
+print (f"Volumen : {volumen}")
