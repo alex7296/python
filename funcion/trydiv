@@ -1,0 +1,11 @@
+def dividir(x, y):
+    try:
+       result = x / y
+    except ZeroDivisionError:
+       print("¡división por cero!")
+    else:
+       print("el resultado es", result)
+       
+    print("ejecutando la clausula finally")
+
+dividir(1,2)
