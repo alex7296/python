@@ -1,0 +1,8 @@
+def area_triangulo():
+    base=float(input("base:"))
+    altura=float(input("altura:"))
+    area=base*altura/2
+    return area
+    
+area=area_triangulo()
+print(f"area:{area}")
