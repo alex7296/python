@@ -1,0 +1,4 @@
+names = ['gumby', 'smith', 'jones']
+name = 'gumby '
+if name in names: print ('Found it!')
+if name.strip() in names: print ('Found it!')
