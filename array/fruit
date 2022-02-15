@@ -1,0 +1,3 @@
+fruit = 'banana'
+print(f"{fruit[:3]}") 
+print (f"{fruit[3:]}")
