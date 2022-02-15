@@ -1,0 +1,8 @@
+nombre =input("Como te llamas?")
+print (f"Encantado, {nombre}")
+try: 
+      edad = input("Cuantos anyos tienes? ")
+      dias = int(edad)*365 
+      print (f“Has vivido  {str(dias)}  dias”)
+except ValueError: 
+     print ("Eso no es un numero")
