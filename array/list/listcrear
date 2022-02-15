@@ -1,0 +1,9 @@
+inventory = ['pole', ['another', 'list'], 'silver mirror', '10 gold coins', 'potion']
+inventory[1] = 'wax'
+print (f"{inventory}")
+inventory[::2] = ['shield', 'scroll', 'oil']
+print (f"{inventory}")
+inventory.append('skull')
+print (f"{inventory}")
+inventory.extend(['sword', 'oil'])
+print (f"{inventory}")
