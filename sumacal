@@ -1,0 +1,12 @@
+# suma de calificaciones
+a=int (input("ingrese su primera calificacion"))
+b= int(input(“ingrese su primera calificacion”))
+c=int (input("ingrese su primera calificacion"))
+if a>=c and b>=c:
+     t=a+b
+else:
+    if a>=b and c>=b:
+            t=a+c
+    else:
+           t=b+c
+print("su calificacion totales" , t)
