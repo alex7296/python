@@ -1,0 +1,7 @@
+for i in range(3):
+    print ("\n")
+    for j in range(5):
+         if i%2==j%2:
+             print("*",end="")
+         else:
+             print(" ",end="")
