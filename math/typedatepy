@@ -1,0 +1,8 @@
+a = 10/3
+b = 10/3.0
+t = 'ejemplo de cadena'
+print (a, b, t)
+print ('tipo de a : ', type(a), ' tipo de b : ', type(b))
+print ('tipo de t : ', type(t) )
+a = a*b # otro comentario
+print ('a = ', a,' tipo de a : ', type(a))
