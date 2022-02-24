@@ -1,0 +1,9 @@
+def saludo_personalizado(nombre):
+    print(f"gusto de verte {nombre}")
+    
+def main():
+    usuario=input("como te llamas:")
+    saludo_personalizado(usuario)
+
+if __name__=='__main__':
+    main()
