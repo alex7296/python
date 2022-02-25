@@ -1,0 +1,3 @@
+names = ["Rita", "Sue"]
+names.append("Bob")
+print(names
