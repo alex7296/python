@@ -1,0 +1,5 @@
+names = ["Graham","Eric","Terry"]
+if “John” in names:
+   print("John present")
+if "Eric" in names:
+    print("Eric present")
