@@ -1,0 +1,4 @@
+names = ["Graham","Eric","Terry G."]
+extraNames = ["Terry J.", "John","Michael"]
+names.extend(extraNames)
+print(names)
