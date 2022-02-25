@@ -1,0 +1,3 @@
+names = ["Graham","Eric","Terry"]
+position = names.index("Graham")
+print(position)
