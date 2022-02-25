@@ -1,0 +1,6 @@
+names = ["Graham","Eric","Terry"]
+if "Eric" in names:
+   position = names.index("Terry")
+   print("Eric in position",position)
+else:
+   print("Eric not found")
