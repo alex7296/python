@@ -1,0 +1,5 @@
+D = {'a': 1, 'b': 2, 'c': 3}
+Ks = list(D.keys())
+Ks.sort()
+for key in Ks: # Iterate though sorted keys
+     print(key, '=>', D[key])
