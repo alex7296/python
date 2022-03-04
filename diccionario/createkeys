@@ -1,0 +1,5 @@
+D = {}
+D['name'] = 'Bob' # Create keys by assignment
+D['job'] = 'dev'
+D['age'] = 40
+print(D['name'])
