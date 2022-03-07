@@ -1,0 +1,23 @@
+def lee_matriz(M):
+ #Dato de la dimensión de la matriz, 
+    print('Lectura Matriz')
+    m = int(input('Numero de filas ')) 
+    n = int(input('Numero de columnas ')) 
+    #Creacion matriz nula en invocacion #
+    M = [] 
+    for i in range(m):
+      M.append([0]* n) 
+    #lectura de elementos
+    for i in range(m):
+        for j in range(n): 
+          M[i][j] = float(input('Ingresa elemento\ ({0},{1}): '.format(i,j)))
+
+def imp_matriz(M):
+ #imprime matriz
+    print ('\nMatriz') 
+    m = len(M)
+    n = len(M[0])
+    for i in range(m):
+        for j in range(n):
+            print(M[i][j],end='\t') 
+            print('')
