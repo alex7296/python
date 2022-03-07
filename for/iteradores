@@ -1,0 +1,8 @@
+for elemento in [1, 2, 3]:
+   print (elemento)
+for elemento in (1, 2, 3):
+   print (elemento)
+for clave in {'uno':1, 'dos':2}:
+   print (clave)
+for caracter in "123":
+    print (caracter)
