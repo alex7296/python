@@ -1,0 +1,16 @@
+import math
+i = 8
+j = 10
+print (i, math.pow(i, 1/3.0), i**3)
+print (j, math.pow(j, 1/3.0), j**3)
+print ('%3d %15.6f %8d' % ( i, math.pow(i, 1.0/3), i**3 ) )
+print ('%3d %15.6f %+8d' % ( j, math.pow(j, 1.0/3), j**3 ))
+n1 = 'Juan'
+a1 = 'Saldarriaga'
+n2 = 'Abelardo'
+a2 = 'Toro'
+print ('%12s%12s' % (n1, a1 ))
+print ('%12s%12s' % (n2, a2 ))
+print ('%-12s%-12s' % (n1, a1 ))
+print ('%-12s%-12s' % (n2, a2 ))
+print ('i = %3d, i^2 = %3d, raiz = %f' % (i, i*i, math.sqrt(i)))
