@@ -1,0 +1,17 @@
+import random 
+
+N=3
+
+m1=[[random.randint(1,50) for j in range(N)] for i in range(N)]
+m2=[[random.randint(1,50) for j in range(N)] for i in range(N)]
+resultado=[[0]*N for i in range(N)]
+
+
+
+for renglon in range(N):
+   for columna in range(N):
+       resultado[renglon][columna]=m1[renglon][columna]+m2[renglon][columna]
+
+print(m1)
+print(m2)
+print(resultado)
