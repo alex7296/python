@@ -1,0 +1,3 @@
+def hello(wish):
+   return '{}'.format(wish)
+print(hello("mrcet"))
