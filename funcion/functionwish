@@ -1,0 +1,5 @@
+def wish(name,msg):
+    """This function greets to
+     the person with the provided message"""
+    print("Hello",name + ' ' + msg)
+wish("MRCET","Good morning!")
