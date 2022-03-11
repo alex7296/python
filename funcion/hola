@@ -1,0 +1,5 @@
+def hola(arg):
+    """El docstring de la función"""
+    print ("Hola", arg ,"!")
+
+hola("Plone")
