@@ -1,0 +1,5 @@
+def indeterminados_posicion(*args):
+    for arg in args:
+        print (arg)
+
+indeterminados_posicion(5,"Hola Plone",[1,2,3,4,5])
