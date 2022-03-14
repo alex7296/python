@@ -1,0 +1,5 @@
+def tuplefunction():
+    return 10, 20, 30
+
+x, y, z = tuplefunction()
+print x, y, z
