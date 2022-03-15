@@ -1,0 +1,8 @@
+#crecimiento de la cantidad de bacterias
+x=int(input("ingrese la cantidad de bacterias:"))
+m=int(input(“ingrese la cantidad máxima de dias:"))
+d=0;
+while x<=m:
+       x=2*x
+       d=d+1
+print ("la cantidad excede al máximo en el dia”, d)
