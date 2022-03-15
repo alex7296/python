@@ -1,0 +1,6 @@
+# simular el movimiento de un dado hasta que salda el 3
+from random import *
+x=0
+while x!=3:
+     x=randint(1,6)
+     print(x)
