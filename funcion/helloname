@@ -1,0 +1,3 @@
+def hello(wish,name='you'):
+    return '{},{}'.format(wish,name)
+print(hello("good morning"))
