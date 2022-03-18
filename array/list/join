@@ -1,0 +1,4 @@
+s = '-x-'
+x = ['a', 'be', 'ce']
+z = s.join(x)
+print 'join: ', z
