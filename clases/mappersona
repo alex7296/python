@@ -1,0 +1,18 @@
+class Persona:
+  def __init__(self, nombre, edad):
+      self.nombre = nombre
+      self.edad = edad
+  def __str__(self):
+      return "{} de {} años".format(self.nombre, self.edad)
+personas = [
+  Persona("Leonardo", 38),
+  Persona("Ana", 33),
+  Persona("Sabrina", 12),
+  Persona("Enrique", 3)
+  ]
+def incrementar(p):
+    p.edad += 1
+    return p
+personas = map(incrementar, personas)
+for persona in personas:
+    print (persona)
