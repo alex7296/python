@@ -1,0 +1,13 @@
+import re
+def repl_func(mo):
+   s1 = mo.group(1)
+   s2 = '*' * len(s1)
+   return s2
+def test():
+   pat = r'(\d+)'
+   in_str = 'there are 2034 birds in 21 trees'
+   out_str, count = re.subn(pat, repl_func, in_str)
+   print ('in: "%s"' % in_str)
+   print ('out: "%s"' % out_str)
+   print ('count: %d' % count)
+test()
