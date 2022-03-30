@@ -1,0 +1,7 @@
+def my_sum(a, *args, b):
+   sum = a
+   for item in args:
+      sum += item
+   sum += b
+   return sum
+print(my_sum(1, 2, 3, 4, b=5))
