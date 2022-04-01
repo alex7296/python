@@ -1,0 +1,3 @@
+import pprint
+t = [[[['negro', 'turquesa'], 'blanco', ['verde', 'rojo']], [['magenta','amarillo'], 'azul']]]
+pprint.pprint(t, width=30)
