@@ -1,0 +1,5 @@
+import textwrap
+doc = """El método wrap() es como fill(), excepto que devuelve
+ una lista de strings en lugar de una gran string con saltos de
+ línea como separadores."""
+print(textwrap.fill(doc, width=40))
