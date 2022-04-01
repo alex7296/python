@@ -1,0 +1,4 @@
+from collections import deque
+d = deque(["tarea1", "tarea2", "tarea3"])
+d.append("tarea4")
+print("Realizando", d.popleft())
