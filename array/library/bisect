@@ -1,0 +1,4 @@
+import bisect
+>>> puntajes = [(100, 'perl'), (200, 'tcl'), (400, 'lua'), (500, 'python')]
+>>> bisect.insort(puntajes, (300, 'ruby'))
+>>> puntajes
