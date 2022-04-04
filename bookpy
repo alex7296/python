@@ -1,0 +1,66 @@
+addbook=1
+updatebook=2
+delete=3
+get=4
+exit=5
+
+book=[]
+
+def menu():
+    print(f"{addbook} add {updatebook} update {delete} deletebook")
+    print(f"{get} getbook {exit} exit")
+
+def addbook():
+     print("Add Book")  
+     title=input("title:")
+     book.append(title)
+     
+def update():
+    print ("update")
+    title=input("title:")
+    pos=int(input("position:"))
+    book.insert(pos,title)
+    
+def get():
+    print ("get book")
+    if (len(book)>0):
+        for reg in book:
+            print(reg)
+    else: 
+        print ("no existen elementos")
+
+def delete():
+    if (len(book)>0):
+        for i in range(len(book)):
+            print(f"{i}, {book[i]}")
+            pos=int(input("position delete:"))
+            if 0<pos<len(book):
+               book.pop(pos)
+            else: 
+                print("not delete")
+        else:
+           print("not exist")
+    else: 
+        print ("not exist elements")
+
+    
+def main():
+    while 1:
+        menu()
+        opc=int(input("Opcion:"))
+        if opc==1:
+            addbook()
+        elif opc==2:
+           update()
+        elif opc==3:
+           get()
+        elif opc==4:
+           delete()
+        elif opc==5:
+            print("Exit")
+            break 
+main()
+            
+
+
+
