@@ -1,0 +1,8 @@
+#Writer a program to read one subject mark and print pass or fail use single return values function with argument.
+def result(a):
+    if a>40:
+      return "pass"
+    else:
+      return "fail"
+a=int(input("Enter one subject marks"))
+print(result(a))
