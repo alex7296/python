@@ -1,0 +1,12 @@
+print ('\n\n\n')
+n = int(input('entero n mayor o igual a 1: n = '))
+if n < 1 :
+   print ('\nNumero indecuado.\n\n')
+   quit()
+suma = 0
+prod = 1
+for i in range(1,n+1) :
+    suma = suma + i
+    prod = prod*i
+print ('la suma es: ', suma)
+print ('el producto es: ', prod, ' = ', float(prod))
