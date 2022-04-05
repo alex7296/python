@@ -1,0 +1,15 @@
+print ('\n\n\n')
+import random
+x = random.randint(0,100)
+bien = 0
+k = 0
+while bien == 0 :
+  n = int(input('Digite un entero entre 0 y 100 inclusive: '))
+  k = k+1
+  if n == x :
+     bien = 1
+  elif n < x :
+     print (n, ' es muy pequeno.')
+  else :
+      print (n, ' es muy grande.')
+print ('\nMuy bien, hizo ', k, 'intentos.\n')test
