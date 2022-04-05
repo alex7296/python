@@ -1,0 +1,15 @@
+n = int(input('entero entre 2 y 120: n = '))
+if n < 2 or n > 120:
+   print ('\nNumero indecuado.\n\n')
+   quit()
+p = [2, 3, 5, 7]
+primo = 1
+for i in p :
+   c = n/i # cociente
+   r = n%i # residuo
+   if c > 1 and r == 0 :
+       print (n, 'no es primo')
+       primo = 0
+       break
+   if i*i > n : break
+if primo == 1: print (n, ' es primo')
