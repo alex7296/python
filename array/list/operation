@@ -1,0 +1,9 @@
+li = [1, 11, 3, 4, 5]
+li.append(‘a’) # Our first exposure to method syntax
+print  (li)
+li.insert(2, "i")
+print (li)
+li.extend([9, 8, 7])
+print (li)
+li.append([10, 11, 12])
+print  (li)
