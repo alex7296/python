@@ -1,0 +1,5 @@
+li = ["a", "b", "c", "b"]
+print (li.index(‘b’)) # index of first occurrence
+print (li.count("b")) # number of occurrences
+li.remove("b") # remove first occurrence
+print  (li)
