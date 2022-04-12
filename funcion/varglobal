@@ -1,0 +1,12 @@
+print ("dave\tfred\tpete")
+dave = 0
+fred = 1
+pete = 2
+def cardboard_box():
+   global fred, pete
+   dave = fred + pete
+   print("Inside the box:")
+   print(dave, '\t', fred, '\t', pete)
+cardboard_box()
+print("Outside the box:")
+print(dave, '\t', fred, '\t', pete)
