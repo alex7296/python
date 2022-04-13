@@ -1,0 +1,8 @@
+product = 1
+i = iter([1, 2, 4, 8])
+while True:
+   try:
+      product *= next(i)
+   except StopIteration:
+      break
+print(product) # prints: 64
