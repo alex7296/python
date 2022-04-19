@@ -1,0 +1,7 @@
+class Persona:
+    def __format__(self, formato):
+        if(formato == 'edad'):
+             return '23'
+        return "Formato nulo"
+
+print (format(Persona(), "edad"))
