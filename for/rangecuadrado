@@ -1,0 +1,6 @@
+for i in range(11) :
+   print ('i = ', i)
+   if ( i*i )%10 == 9 :
+      continue
+   print ('su cuadrado es: ', i*i)
+print ('\nFin del ejemplo.\n\n')
