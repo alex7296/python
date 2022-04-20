@@ -1,0 +1,32 @@
+import math
+def cosg(x):
+    # coseno de un angulo en grados
+    t = x*math.pi/180
+    return math.cos(t)
+#---------------------------------------
+def ordena(a, b) :
+    # devuelve los dos numeros en orden creciente
+   if a <= b :
+     return a, b
+   else :
+     return b, a
+#---------------------------------------
+def lineas(n) :
+   # escribe n lineas en blanco
+   for i in range(1,n+1) : print ('\n')
+#---------------------------------------
+def final() :
+    print ('Este programa acabo normalmente.\n')
+#---------------------------------------
+a = float(input('entre un angulo en grados: '))
+print ('cos(', a, ') = ', cosg(a))
+x = input('entre un numero: ')
+y = input('entre otro numero: ')
+x, y = ordena(x, y)
+print ('numeros ordenados: ', x, y)
+lineas(10)
+final()
+
+
+
+
