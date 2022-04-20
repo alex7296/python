@@ -1,0 +1,8 @@
+a = 3
+if a > 2:
+   print(a, "is greater")
+print("done")
+a = -1
+if a < 0:
+   print(a, "a is smaller")
+print("Finish")
