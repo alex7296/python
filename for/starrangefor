@@ -1,0 +1,6 @@
+start = 4
+stop = 12 #but not i n c l u d i n g
+step = 2
+
+for x in range (start,stop ,step ) :
+   print (x)
