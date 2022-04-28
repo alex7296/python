@@ -1,0 +1,7 @@
+x = []
+for t in zip(range(-10, 0, 1), range(0, 10, 2), range(1, 10, 2)):
+   x += t
+print (x)
+print (sorted(x))
+print (sorted(x, reverse=True))
+print (sorted(x, key=abs))
