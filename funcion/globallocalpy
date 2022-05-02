@@ -1,0 +1,11 @@
+x = 'global' # x is a global variable for this module
+def myfun(arg): # arg is a local variable for this function
+   y = 'local' # y is also a local variable
+   # Function can access both local and global variables
+   print(x)
+   print(y)
+   print(arg)
+myfun('abc')
+print(x)
+#print(y) # locals are not visible outside the function
+#print(arg)
