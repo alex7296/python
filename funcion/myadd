@@ -1,0 +1,10 @@
+def my_add(x, y):
+   return x + y
+def my_sub(x, y):
+   return x - y
+def my_apply(func, x, y): # takes a function as first arg
+   return func(x, y) # Invoke the function received
+print(my_apply(my_add, 3, 2)) # Output: 5
+print(my_apply(my_sub, 3, 2)) # Output: 1
+# We can also pass an anonymous function as argument
+print(my_apply(lambda x, y: x * y, 3, 2))
