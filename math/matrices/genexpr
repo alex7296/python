@@ -1,0 +1,6 @@
+mylist = range(10)
+def f(x):
+  return x*3
+genexpr = (f(x) for x in mylist)
+for x in genexpr:
+  print (x)
