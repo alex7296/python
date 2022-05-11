@@ -1,0 +1,10 @@
+#Puntos aleatorios dentro de un círculo
+from random import*
+n=int(input('Cantidad de intentos: '))
+c=0
+for i in range(n):
+    x=random()
+    y=random()
+    if x**2 + y**2 <= 1:
+        c=c+1
+print('Dentro del círculo: ',c)
