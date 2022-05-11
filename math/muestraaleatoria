@@ -1,0 +1,7 @@
+#Muestra aleatoria (con repeticiones)
+from random import*
+n = int(input('Ingrese tamaño de la población '))
+m = int(input('Ingrese tamaño de la muestra '))
+for i in range(m):
+    x=randint(1,n)
+    print(x)
