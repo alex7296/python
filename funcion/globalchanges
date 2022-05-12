@@ -1,0 +1,7 @@
+x = 'global' # Global file-scope
+def myfun():
+   global x # Declare x global to modify global variable
+   x = 'change'
+   print(x)
+myfun()
+print(x) # Global changes
