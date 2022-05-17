@@ -1,0 +1,5 @@
+def f(x, y=[ ]):
+  y.append(x)
+  return y
+print (f(23)) # prints: [23]
+print (f(42))
