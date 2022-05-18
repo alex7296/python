@@ -1,0 +1,18 @@
+def stat( x ) :
+
+   totalsum = 0
+
+   #Find t h e Sum o f a l l t h e numbers
+   for x in data :
+       totalsum = totalsum + x
+
+   #Find t h e Mean o r Average o f a l l t h e numbers
+
+   N = len( data )
+
+   mean = totalsum/N
+
+   return totalsum , mean
+data = [ 1 , 5 , 6 , 3 , 12 , 3 ]
+totalsum , mean = stat( data )
+print ( totalsum , mean )
