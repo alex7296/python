@@ -1,0 +1,7 @@
+msgs = ['[soso ...]', '[ok]', '[you know ...]', '[terrible]',
+'[do I know you?]']
+numbers = ['23.5', 42, '37', '-1.234567', -98754.320999999996]
+letters = ['v', 'w', 'x', 'y', 'z']
+string = "Value *{0!s: ^3}* equals {1:0>+4.3}\t{message!s::<20}"
+for i in range(0,5):
+   print(string.format(letters[i],float(numbers[i]),message = msgs[i]))
