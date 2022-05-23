@@ -1,0 +1,5 @@
+for m in ['Ene','Feb','Mar','Abr','May','Jun','Jul',
+'Ago','Sep','Oct','Nov','Dic']:
+  print('Mes: ',m)
+  for s in range(1,5):
+     print(' Semana: ',s)
