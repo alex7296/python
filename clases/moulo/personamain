@@ -1,0 +1,18 @@
+
+__docformat__ = “restructuredtext”
+class Persona:
+ 
+  def __init__(self, nombre, edad):
+    
+   
+    self.nombre = nombre
+    self.edad = edad
+    self.mostrar_nombre()
+  def mostrar_nombre(self):
+   
+    print ("Esta es la persona %s" % self.nombre)
+class Empleado(Persona):
+  
+  pass
+if __name__ == "__main__":
+  juan = Persona("Juan", 26)
