@@ -1,0 +1,6 @@
+#Verificar tautología
+for a in [True,False]:
+  for b in [True,False]:
+    for c in [True,False]:
+      p=not((a and b)) or (a or c)
+      print(a,b,c,p)
