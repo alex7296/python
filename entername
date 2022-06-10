@@ -1,0 +1,7 @@
+import time, sys
+name = input("Enter your name: ")
+print ("Hi %s, how are you?" % name)
+feedback = input("What do you want to do now? ")
+print ("I do not want to do that. Good bye!")
+time.sleep(3)
+sys.exit()
