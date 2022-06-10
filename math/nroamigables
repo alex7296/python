@@ -1,0 +1,15 @@
+# Números amigables
+a=int(input('Primer número: '))
+b=int(input('Segundo número: '))
+s=0
+for n in range(1,a):
+  if a%n==0:
+    s=s+n # Suma los divisores de a
+t=0
+for n in range(1,b):
+  if b%n==0:
+    t=t+n # Suma los divisores de b
+if s==b and t==a:
+  print('Son números amigables')
+else:
+  print('No son números amigables')
