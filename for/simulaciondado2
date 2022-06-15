@@ -1,0 +1,9 @@
+# Simular lanzamientos de un dado
+from random import*
+n=int(input('Cantidad máxima de lanzamientos: '))
+for i in range(n):
+  x=randint(1,6)
+  print(x)
+  if x==5:
+    print('Lanzamiento en el cual salió el 5: ',i+1)
+    break
