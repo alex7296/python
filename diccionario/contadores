@@ -1,0 +1,4 @@
+contadores = { 'chuck' : 1 , 'annie' : 42, 'jan': 100}
+for clave in contadores:
+  if contadores[clave] > 10 :
+    print(clave, contadores[clave])
