@@ -1,0 +1,5 @@
+palabra = 'brontosaurio'
+d = dict()
+for c in palabra:
+  d[c] = d.get(c,0) + 1
+print(d)
