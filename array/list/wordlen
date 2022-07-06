@@ -1,0 +1,6 @@
+sent = ['The', 'dog', 'gave', 'John', 'the', 'newspaper']
+result = []
+for word in sent:
+  word_len = (word, len(word))
+  result.append(word_len)
+print (result)
