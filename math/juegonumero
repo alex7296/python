@@ -1,0 +1,15 @@
+from random import*
+x=randint(1,100)
+i=0
+salida=False
+while not salida:
+  i=i+1
+  n=int(input('Adivine el número: '))
+  if n==x:
+    print('Adivinó en ',i,' intentos')
+    salida=True
+  else:
+    if n<x:
+      print('Muy pequeño')
+    else:
+      print('Muy grande')
