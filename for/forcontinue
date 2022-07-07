@@ -1,0 +1,8 @@
+#Uso de continue
+x=[23,45,-34,27,-82,56]
+s=0
+for n in x:
+  if n<0:
+    continue
+  s=s+n
+print(s)
