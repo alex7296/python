@@ -1,0 +1,6 @@
+contadores = { 'chuck' : 1 , 'annie' : 42, 'jan': 100}
+lst = list(contadores.keys())
+print(lst)
+lst.sort()
+for clave in lst:
+print(clave, contadores[clave])
