@@ -1,0 +1,8 @@
+x = "global"
+def f3():
+  global x
+  y = "local"
+  x = x * 2
+  print(x)
+  print(y)
+f3()
