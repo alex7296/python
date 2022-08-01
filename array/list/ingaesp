@@ -1,0 +1,4 @@
+ing_a_esp = {}
+ing_a_esp [ ' one '] = ' uno '
+ing_a_esp [ ' two '] = ' dos
+print (ing_a_esp)
