@@ -1,0 +1,2 @@
+for caracter in "mi cadena":
+  print (caracter)
