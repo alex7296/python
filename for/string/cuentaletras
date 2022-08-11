@@ -1,0 +1,4 @@
+cuentaLetras = {}
+for letra in "Mississippi":
+  cuentaLetras[letra] = cuentaLetras.get (letra, 0) + 1
+print (cuentaLetras)
