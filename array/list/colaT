@@ -1,0 +1,5 @@
+def cola(t):
+  return t[1:]
+letras = ['a', 'b', 'c']
+resto = cola(letras)
+print(resto)
