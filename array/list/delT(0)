@@ -1,0 +1,5 @@
+def remover_primero(t):
+  del t[0]
+letras = ['a', 'b', 'c']
+remover_primero(letras)
+print(letras)
